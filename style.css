@@ -1,0 +1,56 @@
+
+body{
+    background: #f9f8fc;
+}
+
+.container{
+    margin-top: 25px;
+}
+
+.container .accordion{
+    max-width: 650px;
+    margin: auto;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+}
+
+.container .accordion .accordion-item{
+    border-color: #efa31d;
+}
+
+#accordionExample .accordion-item .accordion-header .accordion-button{
+    background: #1D5B79;
+    color: #fff;
+    box-shadow: none;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button::after{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+
+#accordionExampleOne .accordion-item .accordion-header{
+    background: #468B97;
+}
+
+#accordionExampleOne .accordion-item:first-child .accordion-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#accordionExampleOne .accordion-item:last-child .accordion-header{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#accordionExampleOne .accordion-item .accordion-header .accordion-button, #accordionExampleTwo .accordion-item .accordion-header .accordion-button{
+    background: #468B97;
+}
+
+
+#accordionExampleOneTwo .accordion-item .accordion-header, #accordionExampleOneTwo .accordion-item .accordion-header .accordion-button{
+    background: #EF6262;
+}
+
+#accordionExampleOneTwo .accordion-item{
+    border-color: #fff;
+}
